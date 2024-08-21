@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = ""
+authors = ["arifkhanij32 <arifkhanij32@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+package-name = "^0.1"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+package-name = "^0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
